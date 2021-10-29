@@ -1,0 +1,23 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: inherit;
+    height: inherit;
+    margin: inherit;
+    padding: inherit;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}

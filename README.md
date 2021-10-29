@@ -1,2 +1,4 @@
 # about.webfoerster.de
-About me web-application
+
+* A web app to introduce myself
+* created with React

@@ -1,2 +1,2 @@
 # about.webfoerster.de
-About me page
+About me web-application

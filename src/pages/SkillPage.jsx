@@ -3,15 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import creativeCloud from './../img/adobe.svg'
 
 library.add(fab, fas);
 
-function SkillPage() { 
+function SkillPage() {
     return (
         <React.Fragment>
             <div className="content">
                 <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5">
-                    <h1>I have already worked with the following softwares and technologies</h1>
+                    <h1>Worked already with the following softwares and technologies</h1>
                 </div>
                 <div data-swiper-parallax="-100" data-swiper-parallax-opacity="0.5">
                     <FontAwesomeIcon icon={['fab', 'js']} size="5x" />
@@ -22,7 +23,7 @@ function SkillPage() {
                     <FontAwesomeIcon icon={['fab', 'bootstrap']} size="5x" />
                     <FontAwesomeIcon icon={['fab', 'git-alt']} size="5x" />
                     <FontAwesomeIcon icon={['fab', 'wordpress']} size="5x" />
-                    Adobe
+                    <img src={creativeCloud} alt="Adobe" style={{width:"80px"}}></img>
                 </div>
             </div>
         </React.Fragment>

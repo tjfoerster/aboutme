@@ -39,7 +39,7 @@ export default function App() {
         <GlobalStyles />
         <StyledApp>
           <div className="page-config-section">
-              <Button onClick={() => themeToggler()}>Switch Theme</Button>
+              <Button variant="primary" onClick={() => themeToggler()}>Switch Theme</Button>
           </div>
           <Swiper 
             id="main-slider"

@@ -68,6 +68,9 @@ export default function App() {
               <ContactPage />
             </SwiperSlide>
           </Swiper>
+          <div className="page-copyright">
+              <div>Copyright © {new Date().getFullYear()} Timon Förster</div>
+          </div>
         </StyledApp>
       </ThemeProvider>
     </React.Fragment>

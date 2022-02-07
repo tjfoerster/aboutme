@@ -8,7 +8,7 @@ function LandingPage() {
                     <h1>Hello</h1>
                 </div>
                 <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5">
-                    <p>I'm Timon Förster, web developer and frontend designer.</p>
+                    <p>I'm <span style={{color: "var(--bs-primary)"}}>Timon Förster</span>, web developer and frontend designer.</p>
                 </div>
             </div>
         </React.Fragment>

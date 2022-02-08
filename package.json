@@ -1,5 +1,6 @@
 {
-  "name": "about.webfoerster.de",
+  "homepage": "https://tjfoerster.github.io/aboutme",
+  "name": "aboutme",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

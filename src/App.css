@@ -99,7 +99,7 @@ html, body {
         width: 90vw;
         font-size: 50%;
     }
-    svg {
+    .brand-icon {
         width: 70px;
     }
 }

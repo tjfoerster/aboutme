@@ -32,31 +32,31 @@ function SkillPage() {
                         style={{width:"100%", height:"200px"}}
                     >
                         <SwiperSlide key="js" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'js']} color="primary" size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'js']} color="primary" size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="css3" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'css3-alt']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'css3-alt']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="html5" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'html5']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'html5']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="react" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'react']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'react']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="sass" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'sass']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'sass']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="bs" style={{width:"10"}}>
-                            <FontAwesomeIcon icon={['fab', 'bootstrap']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'bootstrap']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="git" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'git-alt']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'git-alt']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="figma" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'figma']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'figma']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="wp" style={{width:"10%"}}>
-                            <FontAwesomeIcon icon={['fab', 'wordpress']} size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'wordpress']} size="9x" />
                         </SwiperSlide>
                     </Swiper>
                 </div>

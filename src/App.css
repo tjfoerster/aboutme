@@ -96,29 +96,33 @@ html, body {
 
 @media screen and (max-width: 600px) {
     .content {
-        width: 95vw;
+        width: 90vw;
+        font-size: 50%;
     }
-  }
+    svg {
+        width: 70px;
+    }
+}
 
-  h1 {
-      font-size: 8rem;
-  }
+h1 {
+    font-size: 8rem;
+}
 
-  h2 {
-      font-size: 3rem;
-  }
+h2 {
+    font-size: 3rem;
+}
 
-  p {
-      font-size: 2rem;
-  }
+p {
+    font-size: 2rem;
+}
 
-  a {
+a {
     color: var(--bs-light1);
     transition: 100ms;
     text-decoration: none;
-  }
+}
 
-  a:hover {
+a:hover {
     color: var(--bs-light1);
     text-decoration: underline;
-  }
+}

@@ -15,7 +15,7 @@ function SkillPage() {
         <React.Fragment>
             <div className="content">
                 <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5" style={{ marginBottom:100 }}>
-                    <h2>Worked already with the following softwares and technologies and more.</h2>
+                    <p>Worked already with the following softwares and technologies and more.</p>
                 </div>
                 <div data-swiper-parallax="-100" data-swiper-parallax-opacity="0.5">
                     <Swiper 
@@ -31,31 +31,31 @@ function SkillPage() {
                         }}
                         style={{width:"100%", height:"200px"}}
                     >
-                        <SwiperSlide key="js" style={{width:"150px"}}>
+                        <SwiperSlide key="js" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'js']} color="primary" size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="css3" style={{width:"150px"}}>
+                        <SwiperSlide key="css3" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'css3-alt']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="html5" style={{width:"150px"}}>
+                        <SwiperSlide key="html5" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'html5']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="react" style={{width:"150px"}}>
+                        <SwiperSlide key="react" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'react']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="sass" style={{width:"150px"}}>
+                        <SwiperSlide key="sass" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'sass']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="bs" style={{width:"150px"}}>
+                        <SwiperSlide key="bs" style={{width:"10"}}>
                             <FontAwesomeIcon icon={['fab', 'bootstrap']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="git" style={{width:"150px"}}>
+                        <SwiperSlide key="git" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'git-alt']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="figma" style={{width:"150px"}}>
+                        <SwiperSlide key="figma" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'figma']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="wp" style={{width:"150px"}}>
+                        <SwiperSlide key="wp" style={{width:"10%"}}>
                             <FontAwesomeIcon icon={['fab', 'wordpress']} size="9x" />
                         </SwiperSlide>
                     </Swiper>

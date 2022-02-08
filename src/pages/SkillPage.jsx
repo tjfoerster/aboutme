@@ -14,10 +14,10 @@ function SkillPage() {
     return (
         <React.Fragment>
             <div className="content">
-                <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5" style={{ marginBottom:100 }}>
-                    <p>Worked already with the following softwares and technologies and more.</p>
+                <div data-swiper-parallax="-300" data-swiper-parallax-opacity="0.5" style={{ marginBottom:'5vh' }}>
+                    <p>Worked already with...</p>
                 </div>
-                <div data-swiper-parallax="-100" data-swiper-parallax-opacity="0.5">
+                <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5">
                     <Swiper 
                         id="technologies-slider"
                         grabCursor={true}
@@ -59,6 +59,9 @@ function SkillPage() {
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'wordpress']} size="9x" />
                         </SwiperSlide>
                     </Swiper>
+                </div>
+                <div data-swiper-parallax="-100" data-swiper-parallax-opacity="0.5" style={{ marginBottom:'5vh' }}>
+                    <p>...and more.</p>
                 </div>
             </div>
         </React.Fragment>

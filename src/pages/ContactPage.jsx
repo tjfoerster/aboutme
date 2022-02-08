@@ -10,7 +10,7 @@ function ContactPage() {
     return (
         <React.Fragment>
             <div className="content">
-                <div data-swiper-parallax="-300" style={{ marginBottom:100 }}>
+                <div data-swiper-parallax="-300" style={{ marginBottom:'5vh' }}>
                     <h2 style={{ margin:0 }}>Contact me</h2>
                 </div>
                 <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5" className="m-3">

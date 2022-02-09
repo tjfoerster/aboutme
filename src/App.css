@@ -54,52 +54,9 @@ html, body {
     justify-content: center;
 }
 
-#email {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 100ms, visibility 100ms;
-}
-
-#email-icon {
-    transform: translateX(124px);
-    transition: transform 100ms;
-}
-
-.contact-link:hover #email {
-    visibility: visible;
-    opacity: 1;
-}
-
-.contact-link:hover #email-icon {
-    transform: translateX(0px);
-}
-
-#github {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 100ms, visibility 100ms;
-}
-
-#github-icon {
-    transform: translateX(51px);
-    transition: transform 100ms;
-}
-
-.contact-link:hover #github {
-    visibility: visible;
-    opacity: 1;
-}
-
-.contact-link:hover #github-icon {
-    transform: translateX(0px);
-}
-
 @media screen and (max-width: 600px) {
     .content {
         width: 90vw;
-    }
-    .brand-icon {
-        width: 70px;
     }
 }
 

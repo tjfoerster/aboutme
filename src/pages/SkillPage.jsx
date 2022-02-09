@@ -15,53 +15,59 @@ function SkillPage() {
         <React.Fragment>
             <div className="content">
                 <div data-swiper-parallax="-300" data-swiper-parallax-opacity="0.5" style={{ marginBottom:'5vh' }}>
-                    <p>Worked already with...</p>
+                    <p>I've already worked with</p>
                 </div>
                 <div data-swiper-parallax="-200" data-swiper-parallax-opacity="0.5">
                     <Swiper 
                         id="technologies-slider"
                         grabCursor={true}
                         slidesPerView={10}
-                        spaceBetween={10} 
+                        spaceBetween={100} 
                         loop={true}
                         centeredSlides={true}
                         autoplay={{
                             "delay": 1500,
                             "disableOnInteraction": false
                         }}
-                        style={{width:"100%", height:"200px"}}
+                        style={{width:"150vw", marginBottom:'5vh' }}
                     >
-                        <SwiperSlide key="js" style={{width:"10%"}}>
+                        <SwiperSlide key="js" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'js']} color="primary" size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="css3" style={{width:"10%"}}>
+                        <SwiperSlide key="css3" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'css3-alt']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="html5" style={{width:"10%"}}>
+                        <SwiperSlide key="html5" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'html5']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="react" style={{width:"10%"}}>
+                        <SwiperSlide key="react" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'react']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="sass" style={{width:"10%"}}>
+                        <SwiperSlide key="sass" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'sass']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="bs" style={{width:"10"}}>
+                        <SwiperSlide key="bs" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'bootstrap']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="git" style={{width:"10%"}}>
+                        <SwiperSlide key="fa" className='icon-slide'>
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'font-awesome']} size="9x" />
+                        </SwiperSlide>
+                        <SwiperSlide key="git" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'git-alt']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="figma" style={{width:"10%"}}>
+                        <SwiperSlide key="wp" className='icon-slide'>
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'wordpress-simple']} size="9x" />
+                        </SwiperSlide>
+                        <SwiperSlide key="figma" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'figma']} size="9x" />
                         </SwiperSlide>
-                        <SwiperSlide key="wp" style={{width:"10%"}}>
-                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'wordpress']} size="9x" />
+                        <SwiperSlide key="sketch" className='icon-slide'>
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'sketch']} size="9x" />
                         </SwiperSlide>
                     </Swiper>
                 </div>
                 <div data-swiper-parallax="-100" data-swiper-parallax-opacity="0.5" style={{ marginBottom:'5vh' }}>
-                    <p>...and more.</p>
+                    <p>and more.</p>
                 </div>
             </div>
         </React.Fragment>

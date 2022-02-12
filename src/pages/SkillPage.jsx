@@ -32,7 +32,7 @@ function SkillPage() {
                         style={{width:"150vw", marginBottom:'5vh' }}
                     >
                         <SwiperSlide key="js" className='icon-slide'>
-                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'js']} color="primary" size="9x" />
+                            <FontAwesomeIcon className='brand-icon' icon={['fab', 'js']} size="9x" />
                         </SwiperSlide>
                         <SwiperSlide key="css3" className='icon-slide'>
                             <FontAwesomeIcon className='brand-icon' icon={['fab', 'css3-alt']} size="9x" />

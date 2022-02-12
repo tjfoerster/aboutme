@@ -1,3 +1,9 @@
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 #email {
     visibility: hidden;
     opacity: 0;
@@ -5,7 +11,7 @@
 }
 
 #email-icon {
-    transform: translateX(124px);
+    transform: translateX(120px);
     transition: transform 100ms;
 }
 
@@ -25,7 +31,7 @@
 }
 
 #github-icon {
-    transform: translateX(51px);
+    transform: translateX(90px);
     transition: transform 100ms;
 }
 

@@ -29,19 +29,10 @@ html, body {
 }
 
 .page-config-section {
-    display: flex;
-    position: absolute;
+    position: absolute !important;
     z-index: 1000;
     top: 30px;
     right: 30px;
-}
-
-.page-copyright {
-    display: flex;
-    position: absolute;
-    z-index: 1000;
-    bottom: 30px;
-    left: 30px;
 }
 
 .content {
@@ -61,25 +52,15 @@ html, body {
     }
 }
 
-h1 {
-    font-size: 8rem;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
 p {
     font-size: 2rem;
 }
 
 a {
-    color: var(--bs-light1);
     transition: 100ms;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--bs-light1);
     text-decoration: underline;
 }

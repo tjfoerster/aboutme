@@ -8,10 +8,11 @@
     visibility: hidden;
     opacity: 0;
     transition: opacity 100ms, visibility 100ms;
+    width: 400px;
 }
 
 #link-icon {
-    transform: translateX(310px);
+    transform: translateX(200px);
     transition: transform 100ms;
 }
 

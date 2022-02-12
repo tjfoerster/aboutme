@@ -3,10 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import SwiperCore, { Mousewheel, Keyboard, Pagination, Parallax } from 'swiper';
 import { createTheme, IconButton, Paper, ThemeProvider, useTheme } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { createGlobalStyle } from 'styled-components';
 
 import LandingPage from './pages/LandingPage';
 import SkillPage from './pages/SkillPage';
 import ContactPage from './pages/ContactPage';
+import FunfactPage from './pages/FunfactPage';
 
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
@@ -14,7 +16,7 @@ import './App.css'
 import './pages/LandingPage.css'
 import './pages/SkillPage.css'
 import './pages/ContactPage.css'
-import { createGlobalStyle } from 'styled-components';
+import './pages/FunfactPage.css'
 
 SwiperCore.use([Mousewheel, Keyboard, Pagination, Parallax]);
 
@@ -121,6 +123,9 @@ function Page() {
         </SwiperSlide>
         <SwiperSlide key="slide-3">
           <ContactPage />
+        </SwiperSlide>
+        <SwiperSlide key="slide-4">
+          <FunfactPage />
         </SwiperSlide>
       </Swiper>
     </Paper>

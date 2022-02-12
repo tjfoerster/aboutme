@@ -22,7 +22,7 @@ function SkillPage() {
                         id="technologies-slider"
                         grabCursor={true}
                         slidesPerView={10}
-                        spaceBetween={100} 
+                        spaceBetween={80} 
                         loop={true}
                         centeredSlides={true}
                         autoplay={{
